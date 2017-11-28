@@ -6,10 +6,9 @@ All my work for the [Deep Learning Specialization on Coursera](https://www.cours
 
 ## Courses 
 - Course1: Neural Networks and Deep Learning
-  - [week1]()
   - [week2](https://github.com/zyunsg/deep-learning/tree/master/course1/week2)
-  - [week3]()
-  - [week4]()
+  - [week3](https://github.com/zyunsg/deep-learning/tree/master/course1/week3)
+  - [week4](https://github.com/zyunsg/deep-learning/tree/master/course1/week4)
 - Course2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
   - [week1]()
   - [week2]()
