@@ -13,7 +13,6 @@ All my programming assignments for the [Deep Learning Specialization on Coursera
   - [week1]()
   - [week2]()
   - [week3]()
-  - [week4]()
 - Course3: Structuring Machine Learning Projects
 - Course4: Convolutional Neural Networks
   - [week1]()
