@@ -14,7 +14,7 @@ The second course for [Deep Learning Specialization on Coursera](https://www.cou
 * [week2](https://github.com/zyunsg/deep-learning/tree/master/course2/week2)
 * [week3](https://github.com/zyunsg/deep-learning/tree/master/course2/week3)
 
-## Conclusions:
+## Conclusions & Key notes:
 
 1. **Initialization**: a well initialization can speed up the convrgence of gradient descent and increase the odds of gradient descent converging to a lower training error.
    * Different initializations lead to different results (Zero/Random/He initialization)
