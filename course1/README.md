@@ -24,27 +24,28 @@ The first course for [Deep Learning Specialization on Coursera](https://www.cour
    * L1 and L2 loss definition 
    
 2. **Logistic Regression with a Neural Network mindset**: it can be summarized and divided into following steps: 1.data preprocesing, 2.initialization, 3.propagate, 4.optimization, 5.prediction, which can be regarded as a general learning steps and rules to follow as well:)
-   * build function separately: initialize(), propagate(), optimize(), predict(), then merge them to build model().
-   * initialize(): initialize the weights w and bias b (w, b).
-   * propagate(): forward, backward propagation.
-   * optimize(): optimize loss function iteratively by learning (w,b): step1: compute cost and gradient; step2: update parameters and its gradient descent. 
-   * predict(): used above learned (w, b) to predict test dataset.
-   * learning rate choice: choose the one better minimized the cost function, 0.1, 0.01, 0.001... note their influence.
+   * build function separately: initialize(), propagate(), optimize(), predict(), then merge them to build model()
+   * initialize(): initialize the weights w and bias b (w, b)
+   * propagate(): forward, backward propagation
+   * optimize(): optimize loss function iteratively by learning (w,b): step1: compute cost and gradient; step2: update parameters and its gradient descent
+   * predict(): used above learned (w, b) to predict test dataset
+   * learning rate choice: choose the one better minimized the cost function, 0.1, 0.01, 0.001... note their influence
    
 3. **Planar data classification with a hidden layer**: understand NN model building steps and build a 2-layer NN.
    * hidden layer and its size impact. (a single hidden layer was applied in the assignment)
-   * non-linear activation function, tanh.
+   * non-linear activation function, tanh
    * cross entropy loss
    * forward and backward propagation
    
 4. **Building Deep Neural Network**: to undestand and implement deep neural network. 
    * Deep Neural Network Structure: ![deep NN structure](https://github.com/zyunsg/deep-learning-coursera/blob/master/course1/week4/images/final_outline.png) 
-   * initialization: initialize (w, b) in all layers.
-   * L forward: L-1 linear relur forward + Lth layer linear sigmoid forward
-   * cost function: compute cost
+   * initialization: initialize (w, b) in all layers
+   * L forward: L-1 linear relur forward, Lth layer linear sigmoid forward
+   * cost function: compute cross-entropy cost J
    * L backward: Lth layer sigmoid -> linear, L-1 relu -> linear
-   * update parameters with gradient descent.
+   * update parameters with gradient descent
    
- 
+ 5. **Deep Neural Network for Image Classification Application**. See how it works. 
+
 
    
