@@ -17,8 +17,5 @@ All my programming assignments and notes for the [Deep Learning Specialization o
   - [week3](https://github.com/zyunsg/deep-learning/tree/master/course2/week3)
 - Course3: Structuring Machine Learning Projects
 - [Course4: Convolutional Neural Networks](https://github.com/zyunsg/deep-learning/tree/master/course4)
-  - [week1]()
-  - [week2]()
-  - [week3]()
-  - [week4]()
+  - [week1](https://github.com/zyunsg/deep-learning/tree/master/course4/week1)
 - Course5: Sequence Models
