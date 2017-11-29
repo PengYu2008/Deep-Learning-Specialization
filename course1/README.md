@@ -31,15 +31,20 @@ The first course for [Deep Learning Specialization on Coursera](https://www.cour
    * predict(): used above learned (w, b) to predict test dataset.
    * learning rate choice: choose the one better minimized the cost function, 0.1, 0.01, 0.001... note their influence.
    
-3. **Planar data classification with a hidden layer**: further understand NN model building steps and build a 2-layer NN. To know following terms and its definitions if any.
+3. **Planar data classification with a hidden layer**: understand NN model building steps and build a 2-layer NN.
    * hidden layer and its size impact. (a single hidden layer was applied in the assignment)
    * non-linear activation function, tanh.
    * cross entropy loss
    * forward and backward propagation
    
-4. **Building Deep Neural Network**: to undestand and implement deep neural network.
-   * ![deep NN structure](https://github.com/zyunsg/deep-learning-coursera/blob/master/course1/week4/images/final_outline.png) 
-   * 
+4. **Building Deep Neural Network**: to undestand and implement deep neural network. 
+   * Deep Neural Network Structure: ![deep NN structure](https://github.com/zyunsg/deep-learning-coursera/blob/master/course1/week4/images/final_outline.png) 
+   * initialization: initialize (w, b) in all layers.
+   * L forward: L-1 linear relur forward + Lth layer linear sigmoid forward
+   * cost function: compute cost
+   * L backward: Lth layer sigmoid -> linear, L-1 relu -> linear
+   * update parameters with gradient descent.
+   
  
 
    
