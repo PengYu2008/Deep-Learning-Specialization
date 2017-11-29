@@ -29,7 +29,7 @@ The second course for [Deep Learning Specialization on Coursera](https://www.cou
      - Gradient checking is slow, so don't run it in every iteration of training, and usually run it only to make sure code is correct, then turn it off and use backprop for the actual learning process.
   
   4. **Tensorflow**: tensorflow framework in deep learning.
-     - Other tutorials: [stanford cs20si: Tensorflow for Deep Learning Research]https://web.stanford.edu/class/cs20si/
+     - Other tutorials: [stanford cs20si: Tensorflow for Deep Learning Research](https://web.stanford.edu/class/cs20si/)
  
 
 
