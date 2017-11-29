@@ -1,4 +1,4 @@
-# Course2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
+## Course2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
 The second course for [Deep Learning Specialization on Coursera](https://www.coursera.org/specializations/deep-learning).
 
 
