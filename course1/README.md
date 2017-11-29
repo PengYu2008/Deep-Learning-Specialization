@@ -31,7 +31,7 @@ The first course for [Deep Learning Specialization on Coursera](https://www.cour
    * predict(): used above learned (w, b) to predict test dataset.
    * learning rate choice: choose the one better minimized the cost function, 0.1, 0.01, 0.001... note their influence.
    
-3. **Planar data classification with a hidden layer**: further understand NN model building steps and build a **2-layer NN**. To know following terms and its definitions if any.
+3. **Planar data classification with a hidden layer**: further understand NN model building steps and build a 2-layer NN. To know following terms and its definitions if any.
    * hidden layer and its size impact. (a single hidden layer was applied in the assignment)
    * non-linear activation function, tanh.
    * cross entropy loss
