@@ -2,17 +2,17 @@
 The second course for [Deep Learning Specialization on Coursera](https://www.coursera.org/specializations/deep-learning).
 
 
-## Objectives:
+### Objectives:
 1. Implement different types of **initialization**, L2 and dropout **regularization**, **Batch normalization** and **gradient checking**, check their corresponding performance.
 2. Implement and apply a variety of optimization algorithms, **Stochastic Gradient Descent(SGD)**, **mini-batch gradient descent**, **Momentum**, **Adam**, and check for their convergence. 
 3. Implement a neural network in **TensorFlow**. 
 
-## Assignments:
+### Assignments:
 * [week1](https://github.com/zyunsg/deep-learning/tree/master/course2/week1) 
 * [week2](https://github.com/zyunsg/deep-learning/tree/master/course2/week2)
 * [week3](https://github.com/zyunsg/deep-learning/tree/master/course2/week3)
 
-## Conclusions:
+### Conclusions:
   1. **Initialization**: a well initialization can speed up the convrgence of gradient descent and increase the odds of gradient descent converging to a lower training error.
      - Different initializations lead to different results (Zero/Random/He initialization)
      - The weights should be initialized randomly to break symmetry, while the biases can be initialized to zeros. Random initialization is used to break symmetry and make sure different hidden units can learn different things.
