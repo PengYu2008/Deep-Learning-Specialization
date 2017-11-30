@@ -14,7 +14,7 @@ The first course for [Deep Learning Specialization on Coursera](https://www.cour
 * [week3](https://github.com/zyunsg/deep-learning/tree/master/course1/week3)
 * [week4](https://github.com/zyunsg/deep-learning/tree/master/course1/week4)
 
-## Conclusions & Key notes:
+## Summary:
 
 1. **Python Basics with numpy**: numpy matrix/vetor operations; broadcasting, working in iPython notebooks. 
    * numpy.xx: np.sum, np.dot, np.multiply, np.exp, np.reshape,etc...
