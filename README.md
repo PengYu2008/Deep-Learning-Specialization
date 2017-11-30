@@ -1,11 +1,11 @@
-# Deep Learning Specialization on Coursera
+# Deep Learning Specialization
 Instructor: [Andrew Ng](http://www.andrewng.org/)
 
 ## Introduction
 
-All my programming assignments and notes for the [Deep Learning Specialization on Coursera](https://www.coursera.org/specializations/deep-learning) are kept in this repo. **This is only for reference and learning track**. 
+All my programming assignments and notes for the [Deep Learning Specialization on Coursera](https://www.coursera.org/specializations/deep-learning) are in this repo. **This is for reference and learning track**. Thanks for Professor Andrew Ng to provide the awesome deep learning courses. 
 
-## Courses
+## Links to Courses
 
 - [Course1: Neural Networks and Deep Learning](https://github.com/zyunsg/deep-learning/tree/master/course1)
   - [week2](https://github.com/zyunsg/deep-learning/tree/master/course1/week2)
