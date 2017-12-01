@@ -4,7 +4,7 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
 
 ## Objectives:
 
-1. To understand the convolution, pooling operation, and some terms: padding, stride, filter
+1. To understand the convolution, pooling operation, and some terms: padding, stride, filter.
 2. To know some classic networks, build DNN with [Keras](https://keras.io/).
 3. Implement a Residual network.
 
@@ -16,18 +16,18 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
 ## Summary:
 
 1. **Convolutional Neural Networks: Step by Step**: to implement CONV and POOL layers... 
-   * Convolution functions: transforms the input volume into an **different size** output volume.
-      - zero Padding: avoid shrinking height/width of the volumes. "same": height/width is exactly preserved after one layer.
-      - convolve window: apply filter by element-wise multiplying --> sum values up --> add bias.
+   * Convolution functions: transforms the input volume into an **different size** output volume
+      - zero Padding: avoid shrinking height/width of the volumes. "same": height/width is exactly preserved after one layer
+      - convolve window: apply filter by element-wise multiplying -> sum values up -> add bias
       - convolution forward
       - convolution backward
-   * Pooling functions: help reduce height and width of the input, and make feature detectors more invariant to its position in the input.
+   * Pooling functions: help reduce height and width of the input, and make feature detectors more invariant to its position in the input
       - two types: Max-pooling, Average-pooling
-      - no parameters to train, but have hyperparameters, such as window size f.
-      - Pooling forward
-      - Pooling backward
+      - no parameters to train, but have hyperparameters, such as window size f
+      - pooling forward
+      - pooling backward
    
-2. **Convolutional Neural Networks: Application**: build ConvNet in TensorFlow for classification problem.
+2. **Convolutional Neural Networks: Application**: build ConvNet in TensorFlow for classification problem
    * model():
      * create placeholder(): 
        - [tf.placeholder()](https://www.tensorflow.org/api_docs/python/tf/placeholder)
