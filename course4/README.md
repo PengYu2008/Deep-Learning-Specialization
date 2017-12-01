@@ -15,7 +15,7 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
 
 ## Summary
 
-#### Convolutional Neural Networks: Step by Step
+#### 1. Convolutional Neural Networks: Step by Step
 1. Convolution functions: transforms the input volume into an **different size** output volume
     - zero Padding: avoid shrinking height/width of the volumes. "same": height/width is exactly preserved after one layer
     - convolve window: apply filter by element-wise multiplying -> sum values up -> add bias
@@ -27,7 +27,7 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
     - pooling forward
     - pooling backward
    
-#### Convolutional Neural Networks: Application: build ConvNet in TensorFlow for classification problem
+#### 2. Convolutional Neural Networks: Application: build ConvNet in TensorFlow for classification problem
 1. model()
    * create placeholder() 
      - [tf.placeholder()](https://www.tensorflow.org/api_docs/python/tf/placeholder)
@@ -48,7 +48,7 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
      - [tf.global_variables_initializer()](https://www.tensorflow.org/api_docs/python/tf/global_variables_initializer)
    * start session: (loop for num_epochs, get and optimize each mini-batch)
      
-#### Keras tutorial - the happy house
+#### 3. Keras tutorial - the happy house
 1. four steps in Keras
     1. create the model 
        - define input placeholder: Input()
@@ -64,7 +64,7 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
 2. model.summary(): prints layers details
 3. plot_model(): plot graph
 
-#### Residual Networks
+#### 4. Residual Networks
 1. very deep "plain" networks don't work in practice because they are hard to train due to vanishing gradients
 2. a shortcut or skip-connections help address the Vanishing Gradient problem
 3. two types of blocks
