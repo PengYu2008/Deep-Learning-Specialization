@@ -2,18 +2,18 @@
 The fourth course for [Deep Learning Specialization on Coursera](https://www.coursera.org/specializations/deep-learning).
 
 
-## Objectives:
+## Objectives
 
 1. To understand the convolution, pooling operation, and some terms: padding, stride, filter.
 2. To know some classic networks, build DNN with [Keras](https://keras.io/).
 3. Implement a Residual network.
 
-## Assignments:
+## Assignments
 
 * [week1](https://github.com/zyunsg/deep-learning/tree/master/course4/week1) 
 * [week2](https://github.com/zyunsg/deep-learning/tree/master/course4/week2)
 
-## Summary:
+## Summary
 
 1. **Convolutional Neural Networks: Step by Step**: to implement CONV and POOL layers... 
    * Convolution functions: transforms the input volume into an **different size** output volume
@@ -28,8 +28,8 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
       - pooling backward
    
 2. **Convolutional Neural Networks: Application**: build ConvNet in TensorFlow for classification problem
-   * model():
-     * create placeholder(): 
+   * model()
+     * create placeholder() 
        - [tf.placeholder()](https://www.tensorflow.org/api_docs/python/tf/placeholder)
      * initialize parameters()
        - [tf.get_variable(, initializer=tf.contrib.layers.xavier_initializer(seed=0))](https://www.tensorflow.org/api_docs/python/tf/get_variable)
@@ -44,12 +44,12 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
        - [tf.reduce_mean()](https://www.tensorflow.org/api_docs/python/tf/reduce_mean)
      * optimizer()
        - [tf.train.AdamOptimizer().minimize(cost)](https://www.tensorflow.org/api_docs/python/tf/train/AdamOptimizer)
-     * initialize all variables globally:
+     * initialize all variables globally
        - [tf.global_variables_initializer()](https://www.tensorflow.org/api_docs/python/tf/global_variables_initializer)
      * start session: (loop for num_epochs, get and optimize each mini-batch)
      
 3. **Keras tutorial - the happy house**: for rapid prototyping
-   * four steps in Keras:
+   * four steps in Keras
       1. create the model 
          - define input placeholder: Input()
          - zero-padding: ZeroPadding2D()
@@ -66,15 +66,22 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
 
 4. **Residual Networks**: stacking blocks together, including identity and convolutional blocks
    * very deep "plain" networks don't work in practice because they are hard to train due to vanishing gradients
-   * a shortcut or skip-connections help address the Vanishing Gradient probelm. 
-   * two types of blocks:
+   * a shortcut or skip-connections help address the Vanishing Gradient probelm
+   * two types of blocks
      - identity block: the dimensions of input and output are the same
      - convolutional block: the dimensions of input and output do not match up
      - the **main difference** between them is that there is a conv2d layer in the shortcut path.
-   * implementation:
+   * implementation
      - [Conv2D](https://keras.io/layers/convolutional/#conv2d)
      - [BatchNorm](https://keras.io/layers/normalization/#batchnormalization)
      - activation: Activation('relu)
      - [Addition for shortcut path](https://keras.io/layers/merge/#add)
+ 
+ ## References
+ 
+ * residual networks
+    - Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun - [Deep Residual Learning for Image Recognition (2015)](https://arxiv.org/abs/1512.03385)
+    - Francois Chollet's github repository: https://github.com/fchollet/deep-learning-models/blob/master/resnet50.py
+
 
 
