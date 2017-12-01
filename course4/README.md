@@ -72,7 +72,7 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
      - convolutional block: the dimensions of input and output do not match up
      - the **main difference** between them is that there is a conv2d layer in the shortcut path
    * implementation
-     - [Conv2D](https://keras.io/layers/convolutional/#conv2d)
+     - [conv2D](https://keras.io/layers/convolutional/#conv2d)
      - [BatchNorm](https://keras.io/layers/normalization/#batchnormalization)
      - activation: Activation('relu)
      - [Addition for shortcut path](https://keras.io/layers/merge/#add)
