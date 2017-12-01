@@ -15,7 +15,7 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
 
 ## Summary
 
-1. **Convolutional Neural Networks: Step by Step**: to implement CONV and POOL layers... 
+#### **Convolutional Neural Networks: Step by Step**: to implement CONV and POOL layers... 
    * Convolution functions: transforms the input volume into an **different size** output volume
       - zero Padding: avoid shrinking height/width of the volumes. "same": height/width is exactly preserved after one layer
       - convolve window: apply filter by element-wise multiplying -> sum values up -> add bias
