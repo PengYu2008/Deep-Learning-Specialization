@@ -64,5 +64,18 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
     * model.summary(): prints layers details
     * plot_model(): plot graph
 
-4. **Residual Networks**: implement basic blocks of ResNets
+4. **Residual Networks**: stacking blocks together, including identity and convolutional blocks
+   * very deep "plain" networks don't work in practice because they are hard to train due to vanishing gradients
+   * a shortcut or skip-connections help address the Vanishing Gradient probelm. 
+   * two types of blocks:
+     - identity block: the dimensions of input and output are the same
+     - convolutional block: the dimensions of input and output do not match up
+     - the **main difference**
+ between them is that there is a CONV2D layer in the shortcut path.
+   * implementation:
+     - [Conv2D](https://keras.io/layers/convolutional/#conv2d)
+     - [BatchNorm](https://keras.io/layers/normalization/#batchnormalization)
+     - activation: Activation('relu)
+     - [Addition for shortcut path](https://keras.io/layers/merge/#add)
+
 
