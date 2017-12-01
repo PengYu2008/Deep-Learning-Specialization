@@ -16,12 +16,12 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
 ## Summary
 
 1. **Convolutional Neural Networks: Step by Step**: to implement CONV and POOL layers... 
-   a. Convolution functions: transforms the input volume into an **different size** output volume
+   1. Convolution functions: transforms the input volume into an **different size** output volume
       - zero Padding: avoid shrinking height/width of the volumes. "same": height/width is exactly preserved after one layer
       - convolve window: apply filter by element-wise multiplying -> sum values up -> add bias
       - convolution forward
       - convolution backward
-   b. Pooling functions: help reduce height and width of the input, and make feature detectors more invariant to its position in the input
+   2. Pooling functions: help reduce height and width of the input, and make feature detectors more invariant to its position in the input
       - two types: Max-pooling, Average-pooling
       - no parameters to train, but have hyperparameters, such as window size f
       - pooling forward
