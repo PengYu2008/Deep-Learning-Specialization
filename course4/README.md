@@ -79,13 +79,13 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
     - activation: Activation('relu)
     - [Addition for shortcut path](https://keras.io/layers/merge/#add)
 
-#### 5. Autonomous driving - Car detection: 
+#### 5. Autonomous driving - Car detection
 * bounding boxes: (p_c, b_x, b_y, b_h, b_w, c)
   - p_c: confidence of an object being present in the bounding box
   - b_x, b_y: midpoint coordinate of the bounding box
   - b_h, b_w: height/width of the bouding box
   - c: dimensional vector to represent object
-* YOLO("you only look once"): object detection model, use pretrained model parameters
+* YOLO("you only look once"): object detection model, use pretrained model parameters in this exercise
    - input(m,608,608,3) -> CNN -> output(m,19,19,5,85)
    - flatten output: (m,19,19,425)
      - Each cell in a 19x19 grid over the input image gives 425 numbers. 
