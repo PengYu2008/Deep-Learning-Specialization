@@ -16,19 +16,19 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
 ## Summary
 
 #### 1. Convolutional Neural Networks: Step by Step
-1. Convolution functions: transforms the input volume into an **different size** output volume
+* Convolution functions: transforms the input volume into an **different size** output volume
     - zero Padding: avoid shrinking height/width of the volumes. "same": height/width is exactly preserved after one layer
     - convolve window: apply filter by element-wise multiplying -> sum values up -> add bias
     - convolution forward
     - convolution backward
-2. Pooling functions: help reduce height and width of the input, and make feature detectors more invariant to its position in the input
+* Pooling functions: help reduce height and width of the input, and make feature detectors more invariant to its position in the input
     - two types: Max-pooling, Average-pooling
     - no parameters to train, but have hyperparameters, such as window size f
     - pooling forward
     - pooling backward
    
 #### 2. Convolutional Neural Networks: Application: build ConvNet in TensorFlow for classification problem
-1. model()
+* model()
    * create placeholder() 
      - [tf.placeholder()](https://www.tensorflow.org/api_docs/python/tf/placeholder)
    * initialize parameters()
@@ -49,7 +49,7 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
    * start session: (loop for num_epochs, get and optimize each mini-batch)
      
 #### 3. Keras tutorial - the happy house
-1. four steps in Keras
+* four steps in Keras
     1. create the model 
        - define input placeholder: Input()
        - zero-padding: ZeroPadding2D()
@@ -61,21 +61,26 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
     2. compile: model.compile(optimizer = "...", loss = "...", metrics = ["accuracy"])
     3. fit/train: model.fit(x = ..., y = ..., epochs = ..., batch_size = ...)
     4. evaluate/test: model.evaluate(x = ..., y = ...)
-2. model.summary(): prints layers details
-3. plot_model(): plot graph
+* model.summary(): prints layers details
+* plot_model(): plot graph
 
 #### 4. Residual Networks
-1. very deep "plain" networks don't work in practice because they are hard to train due to vanishing gradients
-2. a shortcut or skip-connections help address the Vanishing Gradient problem
-3. two types of blocks
+* very deep "plain" networks don't work in practice because they are hard to train due to vanishing gradients
+* a shortcut or skip-connections help address the Vanishing Gradient problem
+* two types of blocks
     - identity block: the dimensions of input and output are the same
     - convolutional block: the dimensions of input and output do not match up
     - the **main difference** between them is that there is a conv2d layer in the shortcut path
-4. implementation
+* implementation
     - [conv2D](https://keras.io/layers/convolutional/#conv2d)
     - [BatchNorm](https://keras.io/layers/normalization/#batchnormalization)
     - activation: Activation('relu)
     - [Addition for shortcut path](https://keras.io/layers/merge/#add)
+
+#### 5. Autonomous driving - Car detection: object detection, dealing with bounding boxes
+* bounding boxes: y = $(p_c, b_x, b_y, b_h, b_w, c)$
+
+
  
  ## References
  1. **Residual Networks**
