@@ -7,11 +7,13 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
 1. To understand the convolution, pooling operation, and some terms: padding, stride, filter.
 2. To know some classic networks, build DNN with [Keras](https://keras.io/).
 3. Implement a Residual network.
+4. To understand object detection with YOLO algorithm.
 
 ## Assignments
 
 * [week1](https://github.com/zyunsg/deep-learning/tree/master/course4/week1) 
 * [week2](https://github.com/zyunsg/deep-learning/tree/master/course4/week2)
+* [week3](https://github.com/zyunsg/deep-learning/tree/master/course4/week3)
 
 ## Summary
 
@@ -77,19 +79,32 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
     - activation: Activation('relu)
     - [Addition for shortcut path](https://keras.io/layers/merge/#add)
 
-#### 5. Autonomous driving - Car detection: object detection, dealing with bounding boxes
-* bounding boxes:
-* YOLO("you only look once"): 
-   - can achieve high accuracy and run in real-time
-   - "only looks once": requires only one forward propagation pass through the network to make predictions
-   - after non-max suppression, it outputs recognized objects together with the bounding boxes
-
-
+#### 5. Autonomous driving - Car detection: 
+* bounding boxes: (p_c, b_x, b_y, b_h, b_w, c)
+  - p_c: confidence of an object being present in the bounding box
+  - b_x, b_y: midpoint coordinate of the bounding box
+  - b_h, b_w: height/width of the bouding box
+  - c: dimensional vector to represent object
+* YOLO("you only look once"): object detection model, use pretrained model parameters
+   - input(m,608,608,3) -> CNN -> output(m,19,19,5,85)
+   - flatten output: (m,19,19,425)
+     - Each cell in a 19x19 grid over the input image gives 425 numbers. 
+     - 425 = 5 x 85 because each cell contains predictions for 5 boxes, corresponding to 5 anchor boxes, as seen in lecture. 
+     - 85 = 5 + 80 where 5 is because (p_c, b_x, b_y, b_h, b_w) has 5 numbers, and and 80 is the number of classes we'd like to detect
+   - select only few boxes based on:
+     - Score-thresholding: throw away boxes that have detected a class with a score less than the threshold
+     - Non-max suppression: Compute the Intersection over Union and avoid selecting overlapping boxes
+   - gives ouput
  
  ## References
  1. **Residual Networks**
     - [Deep Residual Learning for Image Recognition (2015)](https://arxiv.org/abs/1512.03385)
     - [Francois Chollet's github repository](https://github.com/fchollet/deep-learning-models/blob/master/resnet50.py)
+ 2. **YOLO**
+    - [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640)
+    - [YOLO9000: Better, Faster, Stronger](https://arxiv.org/abs/1612.08242)
+    - [YAD2K: Yet Another Darknet 2 Keras](https://github.com/allanzelener/YAD2K)
+    - [YOLO official website](https://pjreddie.com/darknet/yolo/)
 
 
 
