@@ -78,7 +78,11 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
     - [Addition for shortcut path](https://keras.io/layers/merge/#add)
 
 #### 5. Autonomous driving - Car detection: object detection, dealing with bounding boxes
-* bounding boxes: y = $(p_c, b_x, b_y, b_h, b_w, c)$
+* bounding boxes:
+* YOLO("you only look once"): 
+   - can achieve high accuracy and run in real-time
+   - "only looks once": requires only one forward propagation pass through the network to make predictions
+   - after non-max suppression, it outputs recognized objects together with the bounding boxes
 
 
  
