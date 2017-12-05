@@ -8,6 +8,7 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
 2. To know some classic networks, build DNN with [Keras](https://keras.io/).
 3. Implement a Residual network.
 4. To understand object detection with YOLO algorithm.
+5. To learn Face verification & recognition.
 
 ## Assignments
 
@@ -95,7 +96,15 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
      - Score-thresholding: throw away boxes that have detected a class with a score less than the threshold
      - Non-max suppression: Compute the Intersection over Union and avoid selecting overlapping boxes
    - gives ouput
- 
+   
+#### 6. Face Recognition for the Happy House
+* two categories
+  - face verification: 1:1 matching problem 
+  - face recognition: 1:K matching problem
+* triplet loss function
+  - Anchor(A), Positive(P), Negative(N)
+* the same encoding can be used for verification and recognition
+
  ## References
  1. **Residual Networks**
     - [Deep Residual Learning for Image Recognition (2015)](https://arxiv.org/abs/1512.03385)
@@ -105,6 +114,11 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
     - [YOLO9000: Better, Faster, Stronger](https://arxiv.org/abs/1612.08242)
     - [YAD2K: Yet Another Darknet 2 Keras](https://github.com/allanzelener/YAD2K)
     - [YOLO official website](https://pjreddie.com/darknet/yolo/)
+ 3. **Face Recognition**
+    - [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/pdf/1503.03832.pdf)
+    - [DeepFace: Closing the gap to human-level performance in face verification](https://research.fb.com/wp-content/uploads/2016/11/deepface-closing-the-gap-to-human-level-performance-in-face-verification.pdf) 
+    - [Keras-OpenFace source code](https://github.com/iwantooxxoox/Keras-OpenFace)
+    - [Facenet github](https://github.com/davidsandberg/facenet)
 
 
 
