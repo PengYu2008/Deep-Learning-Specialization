@@ -9,6 +9,7 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
 3. Implement a Residual network.
 4. To understand object detection with YOLO algorithm.
 5. To learn Face verification & recognition.
+6. Understand & implement neral style transfer algorithm: generate artistic images
 
 ## Assignments
 
@@ -106,6 +107,22 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
   - Anchor(A), Positive(P), Negative(N)
 * the same encoding can be used for verification and recognition
 
+#### 7. Deep Learning & Art: Neural Style Transfer
+* Neural Style Transfer
+  - content image C
+  - style image S
+  - generated image G
+* NST uses representaions (hidden layer activations) based on **a pretrained ConvNet**
+  - earlier layers: detect low-level features, such as edges, simple textures
+  - deeper layers: detect high-level features, more complex textures as well as object classess
+* content cost function
+  - using one hidden layer's activations
+* style cost function
+  - one layer computation by using **Gram matrix** 
+  - overal computation from multiple different layers), in order to transfer the 'style'
+* total cost: two hyperparameters controls the relative weighting between content and style
+  - \alpha 
+  - \beta
  ## References
  1. **Residual Networks**
     - [Deep Residual Learning for Image Recognition (2015)](https://arxiv.org/abs/1512.03385)
