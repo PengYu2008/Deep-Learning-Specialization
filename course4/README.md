@@ -1,5 +1,5 @@
 # Course4: Convolutional Neural Networks
-The fourth course for [Deep Learning Specialization on Coursera](https://www.coursera.org/specializations/deep-learning).
+The **fourth** course for [Deep Learning Specialization on Coursera](https://www.coursera.org/specializations/deep-learning).
 
 
 ## Objectives
@@ -108,22 +108,30 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
 * the same encoding can be used for verification and recognition
 
 #### 7. Deep Learning & Art: Neural Style Transfer
-* Neural Style Transfer
+* Neural Style Transfer(NST)
   - content image C
   - style image S
   - generated image G
 * NST uses representaions (hidden layer activations) based on **a pretrained ConvNet**
   - earlier layers: detect low-level features, such as edges, simple textures
   - deeper layers: detect high-level features, more complex textures as well as object classess
-* content cost function
-  - using one hidden layer's activations
-* style cost function
-  - one layer computation by using **Gram matrix** 
-  - overal computation from multiple different layers), in order to transfer the 'style'
-* total cost: two hyperparameters controls the relative weighting between content and style
-  - alpha 
-  - beta
- 
+* total cost
+  - alpha & beta: controls the relative weighting between content and style
+  - content cost function: generally use one hidden layer's activations
+  - style cost function: use multiple layers, compute one layer by Gram matrix
+* steps to implement a NST
+    1. create an Interactive Session
+    2. load the content image 
+    3. load the style image
+    4. randomly initialize the image to be generated 
+    5. load the VGG16 model
+    7. build the TensorFlow graph:
+        - run the content image through the VGG16 model and compute the content cost
+        - run the style image through the VGG16 model and compute the style cost
+        - compute the total cost
+        - define the optimizer and the learning rate
+    8. initialize the TensorFlow graph and run it for a large number of iterations, updating the generated image at every step.
+
  ## References
  1. **Residual Networks**
     - [Deep Residual Learning for Image Recognition (2015)](https://arxiv.org/abs/1512.03385)
