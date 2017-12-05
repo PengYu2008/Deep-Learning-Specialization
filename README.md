@@ -9,17 +9,23 @@ All my programming assignments and notes for the [Deep Learning Specialization o
 
 - [x] [Course1: Neural Networks and Deep Learning](https://github.com/zyunsg/deep-learning/tree/master/course1)
   - [x] [week2](https://github.com/zyunsg/deep-learning/tree/master/course1/week2)
-  - [week3](https://github.com/zyunsg/deep-learning/tree/master/course1/week3)
-  - [week4](https://github.com/zyunsg/deep-learning/tree/master/course1/week4)
-- [Course2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization](https://github.com/zyunsg/deep-learning/tree/master/course2)
-  - [week1](https://github.com/zyunsg/deep-learning/tree/master/course2/week1)
-  - [week2](https://github.com/zyunsg/deep-learning/tree/master/course2/week2)
-  - [week3](https://github.com/zyunsg/deep-learning/tree/master/course2/week3)
-- Course3: Structuring Machine Learning Projects
-- [Course4: Convolutional Neural Networks](https://github.com/zyunsg/deep-learning/tree/master/course4)
-  - [week1](https://github.com/zyunsg/deep-learning/tree/master/course4/week1)
-  - [week2](https://github.com/zyunsg/deep-learning/tree/master/course4/week2)
-  - [week3](https://github.com/zyunsg/deep-learning/tree/master/course4/week3)
-  - [week4](https://github.com/zyunsg/deep-learning/tree/master/course4/week4)
-- Course5: Sequence Models
+  - [x] [week3](https://github.com/zyunsg/deep-learning/tree/master/course1/week3)
+  - [x] [week4](https://github.com/zyunsg/deep-learning/tree/master/course1/week4)
+- [x] [Course2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization](https://github.com/zyunsg/deep-learning/tree/master/course2)
+  - [x] [week1](https://github.com/zyunsg/deep-learning/tree/master/course2/week1)
+  - [x] [week2](https://github.com/zyunsg/deep-learning/tree/master/course2/week2)
+  - [x] [week3](https://github.com/zyunsg/deep-learning/tree/master/course2/week3)
+- [x] Course3: Structuring Machine Learning Projects
+- [x] [Course4: Convolutional Neural Networks](https://github.com/zyunsg/deep-learning/tree/master/course4)
+  - [x] [week1](https://github.com/zyunsg/deep-learning/tree/master/course4/week1)
+  - [x] [week2](https://github.com/zyunsg/deep-learning/tree/master/course4/week2)
+  - [x] [week3](https://github.com/zyunsg/deep-learning/tree/master/course4/week3)
+  - [x] [week4](https://github.com/zyunsg/deep-learning/tree/master/course4/week4)
+- [ ] Course5: Sequence Models
+  - [ ] [week1](https://github.com/zyunsg/deep-learning/tree/master/course5/week1)
+  - [ ] [week2](https://github.com/zyunsg/deep-learning/tree/master/course5/week2)
+  - [ ] [week3](https://github.com/zyunsg/deep-learning/tree/master/course5/week3)
+  - [ ] [week4](https://github.com/zyunsg/deep-learning/tree/master/course5/week4)
+  
+
 
