@@ -20,4 +20,5 @@ All my programming assignments and notes for the [Deep Learning Specialization o
   - [week1](https://github.com/zyunsg/deep-learning/tree/master/course4/week1)
   - [week2](https://github.com/zyunsg/deep-learning/tree/master/course4/week2)
   - [week3](https://github.com/zyunsg/deep-learning/tree/master/course4/week3)
+  - [week4](https://github.com/zyunsg/deep-learning/tree/master/course4/week4)
 - Course5: Sequence Models
