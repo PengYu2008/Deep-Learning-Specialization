@@ -22,10 +22,10 @@ All my programming assignments for the [Deep Learning Specialization on Coursera
   - [x] [week3](https://github.com/zyunsg/deep-learning/tree/master/course4/week3)
   - [x] [week4](https://github.com/zyunsg/deep-learning/tree/master/course4/week4)
 - [ ] Course5: Sequence Models
-  - [ ] [week1]()
-  - [ ] [week2]()
-  - [ ] [week3]()
-  - [ ] [week4]()
+  - [ ] [week1]
+  - [ ] [week2]
+  - [ ] [week3]
+  - [ ] [week4]
   
 
 
