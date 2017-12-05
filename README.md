@@ -7,8 +7,8 @@ All my programming assignments and notes for the [Deep Learning Specialization o
 
 ## Links to Courses
 
-- [Course1: Neural Networks and Deep Learning](https://github.com/zyunsg/deep-learning/tree/master/course1)
-  - [week2](https://github.com/zyunsg/deep-learning/tree/master/course1/week2)
+- [x] [Course1: Neural Networks and Deep Learning](https://github.com/zyunsg/deep-learning/tree/master/course1)
+  - [x] [week2](https://github.com/zyunsg/deep-learning/tree/master/course1/week2)
   - [week3](https://github.com/zyunsg/deep-learning/tree/master/course1/week3)
   - [week4](https://github.com/zyunsg/deep-learning/tree/master/course1/week4)
 - [Course2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization](https://github.com/zyunsg/deep-learning/tree/master/course2)
@@ -22,3 +22,4 @@ All my programming assignments and notes for the [Deep Learning Specialization o
   - [week3](https://github.com/zyunsg/deep-learning/tree/master/course4/week3)
   - [week4](https://github.com/zyunsg/deep-learning/tree/master/course4/week4)
 - Course5: Sequence Models
+
