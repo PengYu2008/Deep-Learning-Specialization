@@ -15,6 +15,7 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
 * [week1](https://github.com/zyunsg/deep-learning/tree/master/course4/week1) 
 * [week2](https://github.com/zyunsg/deep-learning/tree/master/course4/week2)
 * [week3](https://github.com/zyunsg/deep-learning/tree/master/course4/week3)
+* [week4](https://github.com/zyunsg/deep-learning/tree/master/course4/week4)
 
 ## Summary
 
