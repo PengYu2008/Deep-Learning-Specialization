@@ -3,7 +3,7 @@ Instructor: [Andrew Ng](http://www.andrewng.org/)
 
 ## Introduction
 
-All my programming assignments and notes for the [Deep Learning Specialization on Coursera](https://www.coursera.org/specializations/deep-learning) are in this repo. **This is for reference and learning track**. Thanks for Professor Andrew Ng to provide the awesome deep learning courses. 
+All my programming assignments for the [Deep Learning Specialization on Coursera](https://www.coursera.org/specializations/deep-learning) are kept in this repo. This is only for reference and my learning track. Thanks for Professor Andrew Ng to provide the awesome courses.:smiling_imp:
 
 ## Links to Courses
 
@@ -22,10 +22,10 @@ All my programming assignments and notes for the [Deep Learning Specialization o
   - [x] [week3](https://github.com/zyunsg/deep-learning/tree/master/course4/week3)
   - [x] [week4](https://github.com/zyunsg/deep-learning/tree/master/course4/week4)
 - [ ] Course5: Sequence Models
-  - [ ] [week1](https://github.com/zyunsg/deep-learning/tree/master/course5/week1)
-  - [ ] [week2](https://github.com/zyunsg/deep-learning/tree/master/course5/week2)
-  - [ ] [week3](https://github.com/zyunsg/deep-learning/tree/master/course5/week3)
-  - [ ] [week4](https://github.com/zyunsg/deep-learning/tree/master/course5/week4)
+  - [ ] [week1]()
+  - [ ] [week2]()
+  - [ ] [week3]()
+  - [ ] [week4]()
   
 
 
