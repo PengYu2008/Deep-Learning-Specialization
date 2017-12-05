@@ -9,7 +9,7 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
 3. Implement a Residual network.
 4. To understand object detection with YOLO algorithm.
 5. To learn Face verification & recognition.
-6. Understand & implement Neural Style Transfer algorithm: generate artistic images
+6. To understand & implement Neural Style Transfer algorithm: generate artistic images
 
 ## Assignments
 
