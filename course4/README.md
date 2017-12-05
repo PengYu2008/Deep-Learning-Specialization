@@ -9,7 +9,7 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
 3. Implement a Residual network.
 4. To understand object detection with YOLO algorithm.
 5. To learn Face verification & recognition.
-6. Understand & implement neral style transfer algorithm: generate artistic images
+6. Understand & implement Neural Style Transfer algorithm: generate artistic images
 
 ## Assignments
 
@@ -121,8 +121,9 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
   - one layer computation by using **Gram matrix** 
   - overal computation from multiple different layers), in order to transfer the 'style'
 * total cost: two hyperparameters controls the relative weighting between content and style
-  - \alpha 
-  - \beta
+  - alpha 
+  - beta
+ 
  ## References
  1. **Residual Networks**
     - [Deep Residual Learning for Image Recognition (2015)](https://arxiv.org/abs/1512.03385)
@@ -137,6 +138,13 @@ The fourth course for [Deep Learning Specialization on Coursera](https://www.cou
     - [DeepFace: Closing the gap to human-level performance in face verification](https://research.fb.com/wp-content/uploads/2016/11/deepface-closing-the-gap-to-human-level-performance-in-face-verification.pdf) 
     - [Keras-OpenFace source code](https://github.com/iwantooxxoox/Keras-OpenFace)
     - [Facenet github](https://github.com/davidsandberg/facenet)
+ 4. **Deep Learning & Art: Neural Style Transfer**
+    - [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576) 
+    - [Convolutional neural networks for artistic style transfer](https://harishnarayanan.org/writing/artistic-style-transfer/)
+    - [Log0, TensorFlow Implementation of "A Neural Algorithm of Artistic Style](http://www.chioka.in/tensorflow-implementation-neural-algorithm-of-artistic-style)
+    - [Very deep convolutional networks for large-scale image recognition](https://arxiv.org/pdf/1409.1556.pdf)
+    - [MatConvNet](http://www.vlfeat.org/matconvnet/pretrained/)
+ 
 
 
 
