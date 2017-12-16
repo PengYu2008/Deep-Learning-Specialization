@@ -51,7 +51,7 @@
     - [ ] It allows gradient descent to set many of the parameters to zero, thus making the connections sparse.
     - [ ] It allows parameters learned for one task to be shared even for a different task (transfer learning).
     - [x] It allows a feature detector to be used in multiple locations throughout the whole input image/input volume.
-    - [ ] It reduces the total number of parameters, thus reducing overfitting.
+    - [x] It reduces the total number of parameters, thus reducing overfitting.
 
 10. In lecture we talked about “sparsity of connections” as a benefit of using convolutional layers. What does this mean?
     - [ ] Regularization causes gradient descent to set many of the parameters to zero.
