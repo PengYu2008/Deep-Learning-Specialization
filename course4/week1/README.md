@@ -1,7 +1,7 @@
 # Week1 Quiz: The basics of ConvNets
 
 1. What do you think applying this filter to a grayscale image will do?
-![q1](https://latex.codecogs.com/png.latex?\begin{bmatrix}&space;0&space;&&space;1&space;&&space;-1&space;&&space;0\\&space;1&space;&&space;3&space;&&space;-3&space;&&space;-1\\&space;1&space;&&space;3&space;&&space;-3&space;&&space;-1&space;\\&space;0&&space;1&space;&&space;-1&space;&&space;0&space;\end{bmatrix}
+![q1](https://latex.codecogs.com/png.latex?\begin{bmatrix}&space;0&space;&&space;1&space;&&space;-1&space;&&space;0\\&space;1&space;&&space;3&space;&&space;-3&space;&&space;-1\\&space;1&space;&&space;3&space;&&space;-3&space;&&space;-1&space;\\&space;0&&space;1&space;&&space;-1&space;&&space;0&space;\end{bmatrix})
     - [ ] Detect 45 degree edges
     - [x] Detect vertical edges
     - [ ] Detect horizontal edges
