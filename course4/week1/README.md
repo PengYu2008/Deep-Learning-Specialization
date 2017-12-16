@@ -1,6 +1,6 @@
 # Week1 Quiz: The basics of ConvNets
 
-1. What do you think applying this filter to a grayscale image will do?<br\>
+1. What do you think applying this filter to a grayscale image will do?<br/>
 ![q1](./images/q1.png)
     - [ ] Detect 45 degree edges
     - [x] Detect vertical edges
