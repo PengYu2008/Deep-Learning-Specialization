@@ -1,12 +1,12 @@
 # Week1 Quiz: The basics of ConvNets
 
 1. What do you think applying this filter to a grayscale image will do?
-<br/>
-    <img src="./images/q1.png" width="120" height="90"><br/>
-    - [ ] Detect 45 degree edges
-    - [x] Detect vertical edges
-    - [ ] Detect horizontal edges
-    - [ ] Detect image contrast
+    <br/>
+        <img src="./images/q1.png" width="120" height="90"><br/>
+        - [ ] Detect 45 degree edges
+        - [x] Detect vertical edges
+        - [ ] Detect horizontal edges
+        - [ ] Detect image contrast
 
 2. Suppose your input is a 300 by 300 color (RGB) image, and you are not using a convolutional network. If the first hidden layer has 100 neurons, each one fully connected to the input, how many parameters does this hidden layer have (including the bias parameters)?
     - [ ] 9,000,001
