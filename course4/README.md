@@ -11,7 +11,7 @@ The **fourth** course for [Deep Learning Specialization on Coursera](https://www
 5. To learn Face verification & recognition.
 6. To understand & implement Neural Style Transfer algorithm: generate artistic images
 
-## Assignments
+## Assignments & Quiz
 
 * [week1](https://github.com/zyunsg/deep-learning/tree/master/course4/week1) 
 * [week2](https://github.com/zyunsg/deep-learning/tree/master/course4/week2)
