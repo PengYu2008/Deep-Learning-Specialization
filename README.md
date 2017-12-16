@@ -3,7 +3,7 @@ Instructor: [Andrew Ng](http://www.andrewng.org/)
 
 ## Introduction
 
-All my programming assignments for the [Deep Learning Specialization on Coursera](https://www.coursera.org/specializations/deep-learning) are kept in this repo. This is only for reference and my learning track. Thanks for Professor Andrew Ng to provide the awesome courses.:smiling_imp:
+All my programming assignments&quiz for the [Deep Learning Specialization on Coursera](https://www.coursera.org/specializations/deep-learning) are kept in this repo. This is only for reference and my learning track. Thanks for Professor Andrew Ng to provide the awesome courses.:smiling_imp:
 
 ## Links to Courses
 
