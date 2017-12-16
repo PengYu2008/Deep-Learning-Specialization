@@ -1,7 +1,7 @@
 # Week1 Quiz: The basics of ConvNets
 
 1. What do you think applying this filter to a grayscale image will do?<br/>
-<img src="./images/q1.png" width="100" height="75">
+<img src="./images/q1.png" align='center' width="100" height="75"> <br/>
     - [ ] Detect 45 degree edges
     - [x] Detect vertical edges
     - [ ] Detect horizontal edges
