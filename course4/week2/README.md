@@ -52,10 +52,10 @@
    - [x] Inception blocks usually use 1x1 convolutions to reduce the input data volume’s size before applying 3x3 and 5x5 convolutions.
 
 10. Which of the following are common reasons for using open-source implementations of ConvNets (both the model and/or weights)? Check all that apply.
-   - [x] Parameters trained for one computer vision task are often useful as pretraining for other computer vision tasks.
-   - [ ] A model trained for one computer vision task can usually be used to perform data augmentation even for a different computer vision task.
-   - [ ] The same techniques for winning computer vision competitions, such as using multiple crops at test time, are widely used in practical deployments (or production system deployments) of ConvNets.
-   - [x] It is a convenient way to get working an implementation of a complex ConvNet architecture.
+      - [x] Parameters trained for one computer vision task are often useful as pretraining for other computer vision tasks.
+      - [ ] A model trained for one computer vision task can usually be used to perform data augmentation even for a different computer vision task.
+      - [ ] The same techniques for winning computer vision competitions, such as using multiple crops at test time, are widely used in practical deployments (or production system deployments) of ConvNets.
+      - [x] It is a convenient way to get working an implementation of a complex ConvNet architecture.
 
 
 
