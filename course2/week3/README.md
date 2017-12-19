@@ -15,8 +15,9 @@
    - [x] The number of hyperparameters you have to tune
 
 4. If you think β (hyperparameter for momentum) is between on 0.9 and 0.99, which of the following is the recommended way to sample a value for beta?
-   - [ ] ''' r = np.random.rand()
-             beta = r*0.09 + 0.9 
+   - [ ] ''' python
+          r = np.random.rand()
+          beta = r*0.09 + 0.9 
          '''
    - [ ]
    - [ ]
