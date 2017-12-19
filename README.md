@@ -5,9 +5,10 @@ Instructor: [Andrew Ng](http://www.andrewng.org/)
 
 All my programming assignments&quiz solutions for the [Deep Learning Specialization on Coursera](https://www.coursera.org/specializations/deep-learning) are kept in this repo. This is only for reference and my learning track. Thanks for Professor Andrew Ng to provide the awesome courses.:smiling_imp:
 
-## Assignments
+## Assignments & Quiz
 
 - [x] [Course1: Neural Networks and Deep Learning](https://github.com/zyunsg/deep-learning/tree/master/course1)
+  - [x] [week1](https://github.com/zyunsg/deep-learning/tree/master/course1/week1)
   - [x] [week2](https://github.com/zyunsg/deep-learning/tree/master/course1/week2)
   - [x] [week3](https://github.com/zyunsg/deep-learning/tree/master/course1/week3)
   - [x] [week4](https://github.com/zyunsg/deep-learning/tree/master/course1/week4)
@@ -27,24 +28,3 @@ All my programming assignments&quiz solutions for the [Deep Learning Specializat
   - [ ] week3
   - [ ] week4
 
-## Quiz 
-- [x] [Course1: Neural Networks and Deep Learning](https://github.com/zyunsg/deep-learning/tree/master/course1)
-  - [x] [week1](https://github.com/zyunsg/deep-learning/tree/master/course1/week1/quiz.md)
-  - [x] [week2](https://github.com/zyunsg/deep-learning/tree/master/course1/week2/quiz.md)
-  - [x] [week3](https://github.com/zyunsg/deep-learning/tree/master/course1/week3/quiz.md)
-  - [x] [week4](https://github.com/zyunsg/deep-learning/tree/master/course1/week4/quiz.md)
-- [x] [Course2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization](https://github.com/zyunsg/deep-learning/tree/master/course2)
-  - [x] [week1](https://github.com/zyunsg/deep-learning/tree/master/course2/week1/quiz.md)
-  - [x] [week2](https://github.com/zyunsg/deep-learning/tree/master/course2/week2/quiz.md)
-  - [x] [week3](https://github.com/zyunsg/deep-learning/tree/master/course2/week3/quiz.md)
-- [x] Course3: Structuring Machine Learning Projects
-- [x] [Course4: Convolutional Neural Networks](https://github.com/zyunsg/deep-learning/tree/master/course4)
-  - [x] [week1](https://github.com/zyunsg/deep-learning/tree/master/course4/week1/quiz.md)
-  - [x] [week2](https://github.com/zyunsg/deep-learning/tree/master/course4/week2/quiz.md)
-  - [x] [week3](https://github.com/zyunsg/deep-learning/tree/master/course4/week3/quiz.md)
-  - [x] [week4](https://github.com/zyunsg/deep-learning/tree/master/course4/week4/quiz.md)
-- [ ] Course5: Sequence Models
-  - [ ] week1
-  - [ ] week2
-  - [ ] week3
-  - [ ] week4
