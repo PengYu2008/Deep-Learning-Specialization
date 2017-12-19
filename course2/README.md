@@ -8,7 +8,7 @@ The second course for [Deep Learning Specialization on Coursera](https://www.cou
 2. Implement and apply a variety of optimization algorithms, **Stochastic Gradient Descent(SGD)**, **mini-batch gradient descent**, **Momentum**, **Adam**, and check for their convergence. 
 3. Implement a neural network in **TensorFlow**. 
 
-## Assignments:
+## Assignments & Quiz:
 
 * [week1](https://github.com/zyunsg/deep-learning/tree/master/course2/week1) 
 * [week2](https://github.com/zyunsg/deep-learning/tree/master/course2/week2)
