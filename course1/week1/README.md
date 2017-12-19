@@ -28,7 +28,7 @@
           <br/><img src="./images/q5f1.PNG" width="242" height="144"><br/>
    - [ ] Figure 2:
           <br/><img src="./images/q5f2.PNG" width="242" height="144"><br/>
-   - [ ] Figure 3:
+   - [x] Figure 3:
           <br/><img src="./images/q5f3.PNG" width="242" height="144"><br/>
    - [ ] Figure 4:
           <br/><img src="./images/q5f4.PNG" width="242" height="144"><br/>
