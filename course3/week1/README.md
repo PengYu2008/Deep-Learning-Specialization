@@ -31,7 +31,7 @@ The City Council tells you the following that they want an algorithm that
 + "We want the trained model to take no more than 10sec to classify a new image.”
 + “We want the model to fit in 10MB of memory.”
 
- If you had the three following models, which one would you choose?
+    If you had the three following models, which one would you choose?
    - [ ] 
          | Test Accuracy | Runtime | Memory size |
          |  97%          | 1 sec   | 3MB         |
@@ -155,4 +155,6 @@ What can you conclude? (Check all that apply.)
    - [x] If 100,000,000 examples is enough to build a good enough Cat detector, you might be better of training with just 10,000,000 examples to gain a ≈10x improvement in how quickly you can run experiments, even if each model performs a bit worse because it’s trained on less data.
    - [x] Buying faster computers could speed up your teams’ iteration speed and thus your team’s productivity.
 
+         | Test Accuracy | Runtime | Memory size |
+         |  97%          | 1 sec   | 3MB         |
  
