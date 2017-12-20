@@ -23,7 +23,20 @@ The City Council tells you the following that they want an algorithm that
 3. Can fit in a small amount of memory, so that it can run in a small processor that the city will attach to many different security cameras.
 
 Note: Having three evaluation metrics makes it harder for you to quickly choose between two different algorithms, and will slow down the speed with which your team can iterate. True/False?
-- [ ] True
-- [ ] False
- 
- 
+  - [ ] True
+  - [ ] False
+  
+2. After further discussions, the city narrows down its criteria to:
+   + "We need an algorithm that can let us know a bird is flying over Peacetopia as accurately as possible."
+   + "We want the trained model to take no more than 10sec to classify a new image.”
+   + “We want the model to fit in 10MB of memory.”
+   
+   If you had the three following models, which one would you choose?
+   - [ ] 
+          | Left-aligned | Center-aligned | Right-aligned |
+          | :---         |     :---:      |          ---: |
+          | git status   | git status     | git status    |
+          | git diff     | git diff       | git diff      |
+   - [ ] 
+   - [ ] 
+   - [ ] 
