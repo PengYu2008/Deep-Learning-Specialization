@@ -33,10 +33,11 @@ Note: Having three evaluation metrics makes it harder for you to quickly choose 
    
    If you had the three following models, which one would you choose?
    - [ ] 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+          | Tables        | Are           | Cool  |
+          | ------------- |:-------------:| -----:|
+          | col 3 is      | right-aligned | $1600 |
+          | col 2 is      | centered      |   $12 |
+          | zebra stripes | are neat      |    $1 |
    - [ ] 
    - [ ] 
    - [ ] 
