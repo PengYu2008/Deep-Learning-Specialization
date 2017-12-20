@@ -10,22 +10,22 @@
    “We want the model to fit in 10MB of memory.”
     
    If you had the three following models, which one would you choose?
-      - [ ] 
+      - [ ] ->
 
             | Test Accuracy | Runtime | Memory size |
             |  97%          | 1 sec   | 3MB         |
             
-      - [ ] 
+      - [ ] ->
 
             | Test Accuracy | Runtime | Memory size |
             |  99%          | 13sec   | 9MB         |    
             
-      - [ ] 
+      - [ ] ->
 
             | Test Accuracy | Runtime | Memory size |
             |  97%          |  3sec   | 2MB         |  
             
-      - [x] 
+      - [x] ->
 
             | Test Accuracy | Runtime | Memory size |
             |  98%          |  9sec   | 9MB         | 
@@ -38,22 +38,22 @@
 
 4. **Structuring your data**
    Before implementing your algorithm, you need to split your data into train/dev/test sets. Which of these do you think is the best choice?
-      - [ ] 
+      - [ ] ->
 
               |   Train   |    dev    |   Test    |
               | 6,000,000 | 1,000,000 | 3,000,000 |  
               
-      - [ ] 
+      - [ ] ->
 
               |   Train   |    dev    |   Test    |
               | 6,000,000 | 3,000,000 | 1,000,000 |   
               
-      - [x] 
+      - [x] ->
 
               |   Train   |    dev    |   Test    |
               | 9,500,000 | 250,000   |   250,000 |   
               
-      - [ ] 
+      - [ ] ->
 
               |   Train   |    dev    |   Test    |
               | 3,333,334 | 3,333,333 | 3,333,333 |  
