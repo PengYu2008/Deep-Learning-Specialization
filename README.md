@@ -16,7 +16,9 @@ All my programming assignments&quiz solutions for the [Deep Learning Specializat
   - [x] [week1](https://github.com/zyunsg/deep-learning/tree/master/course2/week1)
   - [x] [week2](https://github.com/zyunsg/deep-learning/tree/master/course2/week2)
   - [x] [week3](https://github.com/zyunsg/deep-learning/tree/master/course2/week3)
-- [x] Course3: Structuring Machine Learning Projects
+- [x] [Course3: Structuring Machine Learning Projects](https://github.com/zyunsg/Deep-Learning-Specialization/tree/master/course3)
+  - [x] [week1](https://github.com/zyunsg/Deep-Learning-Specialization/tree/master/course3/week1)
+  - [x] [week2](https://github.com/zyunsg/Deep-Learning-Specialization/tree/master/course3/week2)
 - [x] [Course4: Convolutional Neural Networks](https://github.com/zyunsg/deep-learning/tree/master/course4)
   - [x] [week1](https://github.com/zyunsg/deep-learning/tree/master/course4/week1)
   - [x] [week2](https://github.com/zyunsg/deep-learning/tree/master/course4/week2)
