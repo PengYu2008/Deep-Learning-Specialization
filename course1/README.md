@@ -8,8 +8,8 @@ The first course for [Deep Learning Specialization on Coursera](https://www.cour
 2. To know the general steps and relus when building a model, develop a model with separate module functions.
 3. To undestand and implement **deep neural network** (structure, blocks, applications).
 
-## Assignments:
-
+## Assignments & Quiz:
+* [week1](https://github.com/zyunsg/deep-learning/tree/master/course1/week1) 
 * [week2](https://github.com/zyunsg/deep-learning/tree/master/course1/week2) 
 * [week3](https://github.com/zyunsg/deep-learning/tree/master/course1/week3)
 * [week4](https://github.com/zyunsg/deep-learning/tree/master/course1/week4)
