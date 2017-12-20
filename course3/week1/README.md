@@ -38,6 +38,5 @@ Note: Having three evaluation metrics makes it harder for you to quickly choose 
    - [ ] 
    
           | Test Accuracy | Runtime | Memory size |
-          | ------------- |---------| ------------|
           |  97%          | 1 sec   | 3MB         |  
 
