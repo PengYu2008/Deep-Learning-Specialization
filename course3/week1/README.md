@@ -37,8 +37,7 @@ Note: Having three evaluation metrics makes it harder for you to quickly choose 
    - [ ] 
    - [ ] 
    
-          | Tables        | Are           | Cool  |
-          | ------------- |:-------------:| -----:|
-          | col 3 is      | right-aligned | $1600 |
-          | col 2 is      | centered      |   $12 |
-          | zebra stripes | are neat      |    $1 |
+          | Test Accuracy | Runtime | Memory size |
+          | ------------- |---------| ------------|
+          |  97%          | 1 sec   | 3MB         |  
+
