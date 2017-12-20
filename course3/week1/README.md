@@ -18,9 +18,9 @@ There are a lot of decisions to make:
 
 ### Metric of success
 The City Council tells you the following that they want an algorithm that
-1. Has high accuracy
-2. Runs quickly and takes only a short time to classify a new image.
-3. Can fit in a small amount of memory, so that it can run in a small processor that the city will attach to many different security cameras.
+    * Has high accuracy
+    * Runs quickly and takes only a short time to classify a new image.
+    * Can fit in a small amount of memory, so that it can run in a small processor that the city will attach to many different security cameras.
 
 1. Note: Having three evaluation metrics makes it harder for you to quickly choose between two different algorithms, and will slow down the speed with which your team can iterate. True/False?
     - [x] True
@@ -31,19 +31,19 @@ The City Council tells you the following that they want an algorithm that
     + "We want the trained model to take no more than 10sec to classify a new image.”
     + “We want the model to fit in 10MB of memory.”
    
-If you had the three following models, which one would you choose?
+    If you had the three following models, which one would you choose?
     - [ ] 
-            | Test Accuracy | Runtime | Memory size |
-            |  97%          | 1 sec   | 3MB         |  
+                | Test Accuracy | Runtime | Memory size |
+                |  97%          | 1 sec   | 3MB         |  
     - [ ] 
-            | Test Accuracy | Runtime | Memory size |
-            |  99%          | 13sec   | 9MB         |     
+                | Test Accuracy | Runtime | Memory size |
+                |  99%          | 13sec   | 9MB         |     
     - [ ] 
-            | Test Accuracy | Runtime | Memory size |
-            |  97%          |  3sec   | 2MB         |    
+                | Test Accuracy | Runtime | Memory size |
+                |  97%          |  3sec   | 2MB         |    
     - [x] 
-            | Test Accuracy | Runtime | Memory size |
-            |  98%          |  9sec   | 9MB         | 
+                | Test Accuracy | Runtime | Memory size |
+                |  98%          |  9sec   | 9MB         | 
               
 3. Based on the city’s requests, which of the following would you say is true?
     - [x] Accuracy is an optimizing metric; running time and memory size are a satisficing metrics.
@@ -52,19 +52,19 @@ If you had the three following models, which one would you choose?
     - [ ] Accuracy, running time and memory size are all satisficing metrics because you have to do sufficiently well on all three for your system to be acceptable.
     
 4. **Structuring your data**
-Before implementing your algorithm, you need to split your data into train/dev/test sets. Which of these do you think is the best choice?
-    - [ ]
-              |   Train   |    dev    |   Test    |
-              | 6,000,000 | 1,000,000 | 3,000,000 |  
+    Before implementing your algorithm, you need to split your data into train/dev/test sets. Which of these do you think is the best choice?
     - [ ] 
-              |   Train   |    dev    |   Test    |
-              | 6,000,000 | 3,000,000 | 1,000,000 |   
+            |   Train   |    dev    |   Test    |
+            | 6,000,000 | 1,000,000 | 3,000,000 |  
+    - [ ] 
+            |   Train   |    dev    |   Test    |
+            | 6,000,000 | 3,000,000 | 1,000,000 |   
     - [x] 
-              |   Train   |    dev    |   Test    |
-              | 9,500,000 | 250,000   |   250,000 |   
+            |   Train   |    dev    |   Test    |
+            | 9,500,000 | 250,000   |   250,000 |   
     - [ ] 
-              |   Train   |    dev    |   Test    |
-              | 3,333,334 | 3,333,333 | 3,333,333 |  
+            |   Train   |    dev    |   Test    |
+            | 3,333,334 | 3,333,333 | 3,333,333 |  
 
 5. After setting up your train/dev/test sets, the City Council comes across another 1,000,000 images, called the “citizens’ data”. Apparently the citizens of Peacetopia are so scared of birds that they volunteered to take pictures of the sky and label them, thus contributing these additional 1,000,000 images. These images are different from the distribution of images the City Council had originally given you, but you think it could help your algorithm.
 
