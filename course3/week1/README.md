@@ -14,14 +14,17 @@
 
             | Test Accuracy | Runtime | Memory size |
             |  97%          | 1 sec   | 3MB         |
+            
       - [ ] 
 
             | Test Accuracy | Runtime | Memory size |
-            |  99%          | 13sec   | 9MB         |     
+            |  99%          | 13sec   | 9MB         |    
+            
       - [ ] 
 
             | Test Accuracy | Runtime | Memory size |
-            |  97%          |  3sec   | 2MB         |    
+            |  97%          |  3sec   | 2MB         |  
+            
       - [x] 
 
             | Test Accuracy | Runtime | Memory size |
@@ -39,14 +42,17 @@
 
               |   Train   |    dev    |   Test    |
               | 6,000,000 | 1,000,000 | 3,000,000 |  
+              
       - [ ] 
 
               |   Train   |    dev    |   Test    |
               | 6,000,000 | 3,000,000 | 1,000,000 |   
+              
       - [x] 
 
               |   Train   |    dev    |   Test    |
               | 9,500,000 | 250,000   |   250,000 |   
+              
       - [ ] 
 
               |   Train   |    dev    |   Test    |
@@ -98,7 +104,7 @@
          |   Training set error                 |   2.0%   |
          |   Dev set error                      |   2.1%   |
 
-   Based on the evidence you have, which two of the following four options seem the most promising to try? (Check two options.)
+    Based on the evidence you have, which two of the following four options seem the most promising to try? (Check two options.)
       - [x] Train a bigger model to try to do better on the training set.
       - [ ] Try increasing regularization.
       - [ ] Get a bigger training set to reduce variance.
@@ -110,7 +116,7 @@
          |   Training set error                 |   2.0%  |
          |   Dev set error                      |   2.1%  |
          |   Test set error                     |   7.0%  |
-   What does this mean? (Check the two best options.)
+    What does this mean? (Check the two best options.)
       - [x] You should try to get a bigger dev set.
       - [x] You have overfit to the dev set.
       - [ ] You have underfit to the dev set.
@@ -121,7 +127,7 @@
          |   Human-level performance            |   0.10%  |
          |   Training set error                 |   0.05%  |
          |   Dev set error                      |   0.05%  |
-   What can you conclude? (Check all that apply.)
+    What can you conclude? (Check all that apply.)
       - [ ] This is a statistical anomaly (or must be the result of statistical noise) since it should not be possible to surpass human-level performance.
       - [ ] With only 0.09% further progress to make, you should quickly be able to close the remaining gap to 0%
       - [x] If the test set is big enough for the 0.05% error estimate to be accurate, this implies Bayes error is ≤0.05
@@ -134,8 +140,8 @@
       - [ ] Pick false negative rate as the new metric, and use this new metric to drive all further development.
 
 14. You’ve handily beaten your competitor, and your system is now deployed in Peacetopia and is protecting the citizens from birds! But over the last few months, a new species of bird has been slowly migrating into the area, so the performance of your system slowly degrades because your data is being tested on a new type of data.
-   <br/><img src="./images/q14.PNG"><br/>
-   You have only 1,000 images of the new species of bird. The city expects a better system from you within the next 3 months. Which of these should you do first?
+    <br/><img src="./images/q14.PNG"><br/>
+    You have only 1,000 images of the new species of bird. The city expects a better system from you within the next 3 months. Which of these should you do first?
       - [x] Use the data you have to define a new evaluation metric (using a new dev/test set) taking into account the new species, and use that to drive further progress for your team.
       - [ ] Put the 1,000 images into the training set so as to try to do better on these birds.
       - [ ] Try data augmentation/data synthesis to get more images of the new type of bird.
