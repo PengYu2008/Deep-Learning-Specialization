@@ -14,13 +14,17 @@
    - [ ] False
    
 3. Which of these is a correct vectorized implementation of forward propagation for layer l, where 1≤l≤L?
-   - [x] + Z[l]=W[l]A[l−1]+b[l]
+   - [x] 
+         + Z[l]=W[l]A[l−1]+b[l]
          + A[l]=g[l](Z[l])
-   - [ ] + Z[l]=W[l−1]A[l]+b[l−1]
+   - [ ] 
+         + Z[l]=W[l−1]A[l]+b[l−1]
          + A[l]=g[l](Z[l])
-   - [ ] + Z[l]=W[l]A[l]+b[l]
+   - [ ] 
+         + Z[l]=W[l]A[l]+b[l]
          + A[l+1]=g[l+1](Z[l])
-   - [ ] + Z[l]=W[l]A[l]+b[l]
+   - [ ] 
+         + Z[l]=W[l]A[l]+b[l]
          + A[l+1]=g[l](Z[l])
 4. You are building a binary classifier for recognizing cucumbers (y=1) vs. watermelons (y=0). Which one of these activation functions would you recommend using for the output layer?
    - [ ] ReLU
