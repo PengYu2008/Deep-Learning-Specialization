@@ -3,7 +3,7 @@
 1. To help you practice strategies for machine learning, in this week we’ll present another scenario and ask how you would act. We think this “simulator” of working in a machine learning project will give a task of what leading a machine learning project could be like!
 
     You are employed by a startup building self-driving cars. You are in charge of detecting road signs (stop sign, pedestrian crossing sign, construction ahead sign) and traffic signals (red and green lights) in images. The goal is to recognize which of these objects appear in each image. As an example, the above image contains a pedestrian crossing sign and red traffic lights
-    <br/><img src="./images/q1.PNG"><br/>
+    <br/><img src="./images/q1.png"><br/>
     Your 100,000 labeled images are taken using the front-facing camera of your car. This is also the distribution of data you care most about doing well on. You think you might be able to get a much larger dataset off the internet, that could be helpful for training even if the distribution of internet data is not the same.
 
     You are just getting started on this project. What is the first thing you do? Assume each of the steps below would take about an equal amount of time (a few days).
@@ -69,18 +69,18 @@
    
 8. You decide to focus on the dev set and check by hand what are the errors due to. Here is a table summarizing your discoveries:
    
-   | Overall dev set error                                   |  14.3%  |
-   ---------------------------------------------------------------------
-   | Errors due to incorrectly labeled data                  |  4.1%   |
-   ---------------------------------------------------------------------
-   | Errors due to foggy pictures                            |  8.0%   |
-   --------------------------------------------------------------------- 
-   | Errors due to rain drops stuck on your car’s            |  2.2%   | 
-   | front-facing camera                                     |         |
-   ---------------------------------------------------------------------
-   | Errors due to other causes                              |  1.0%   |
-   ---------------------------------------------------------------------
-   In this table, 4.1%, 8.0%, etc.are a fraction of the total dev set (not just examples your algorithm mislabeled). I.e. about 8.0/14.3 = 56% of your errors are due to foggy pictures.
+       | Overall dev set error                                   |  14.3%  |
+       ---------------------------------------------------------------------
+       | Errors due to incorrectly labeled data                  |  4.1%   |
+       ---------------------------------------------------------------------
+       | Errors due to foggy pictures                            |  8.0%   |
+       --------------------------------------------------------------------- 
+       | Errors due to rain drops stuck on your car’s            |  2.2%   | 
+       | front-facing camera                                     |         |
+       ---------------------------------------------------------------------
+       | Errors due to other causes                              |  1.0%   |
+       ---------------------------------------------------------------------
+    In this table, 4.1%, 8.0%, etc.are a fraction of the total dev set (not just examples your algorithm mislabeled). I.e. about 8.0/14.3 = 56% of your errors are due to foggy pictures.
    
    The results from this analysis implies that the team’s highest priority should be to bring more foggy pictures into the training set so as to address the 8.0% of errors in that category. True/False?
     - [ ] True because it is the largest category of errors. As discussed in lecture, we should prioritize the largest category of error to avoid wasting the team’s time.
@@ -132,9 +132,9 @@
     - [ ] False
     
 15. Approach A (in the question above) tends to be more promising than approach B if you have a ________ (fill in the blank).
-        - [ ] Large training set
-        - [ ] Multi-task learning problem.
-        - [ ] Large bias problem.
-        - [ ] Problem with a high Bayes error.
+    - [ ] Large training set
+    - [ ] Multi-task learning problem.
+    - [ ] Large bias problem.
+    - [ ] Problem with a high Bayes error.
    
    
