@@ -58,7 +58,7 @@ The City Council tells you the following that they want an algorithm that
       - [ ] Accuracy, running time and memory size are all optimizing metrics because you want to do well on all three.
       - [ ] Accuracy, running time and memory size are all satisficing metrics because you have to do sufficiently well on all three for your system to be acceptable.
 
-4. **Structuring your data**
+4. **Structuring your data** <br/>
    Before implementing your algorithm, you need to split your data into train/dev/test sets. Which of these do you think is the best choice?
       - [ ] ->
 
