@@ -14,7 +14,7 @@
    - [ ] False
    
 3. Which of these is a correct vectorized implementation of forward propagation for layer l, where 1≤l≤L?
-   - [x] Z[l]=W[l]A[l−1]+b[l] <br\>
+   - [x] Z[l]=W[l]A[l−1]+b[l] <br/>
          A[l]=g[l](Z[l])
    - [ ] 
          + Z[l]=W[l−1]A[l]+b[l−1]
