@@ -109,7 +109,9 @@
     - [x] You should not correct incorrectly labeled data in the training set as well so as to avoid your training set now being even more different from your dev set.
     
 12. So far your algorithm only recognizes red and green traffic lights. One of your colleagues in the startup is starting to work on recognizing a yellow traffic light. (Some countries call it an orange light rather than a yellow light; we’ll use the US convention of calling it yellow.) Images containing yellow lights are quite rare, and she doesn’t have enough data to build a good model. She hopes you can help her out using transfer learning.
+
     What do you tell your colleague?
+    
     - [x] She should try using weights pre-trained on your dataset, and fine-tuning further with the yellow-light dataset.
     - [ ] If she has (say) 10,000 images of yellow lights, randomly sample 10,000 images from your dataset and put your and her data together. This prevents your dataset from “swamping” the yellow lights dataset.
     - [ ] You cannot help her because the distribution of data you have is different from hers, and is also lacking the yellow label.
