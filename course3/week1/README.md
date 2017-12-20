@@ -1,27 +1,5 @@
 # Bird recognition in the city of Peacetopia (case study)
 
-### Problem Statement
-This example is adapted from a real production application, but with details disguised to protect confidentiality.
-<br/><img src="./images/q1.PNG"><br/>
-You are a famous researcher in the City of Peacetopia. The people of Peacetopia have a common characteristic: they are afraid of birds. To save them, you have **to build an algorithm that will detect any bird flying over Peacetopia** and alert the population.
-
-The City Council gives you a dataset of 10,000,000 images of the sky above Peacetopia, taken from the city’s security cameras. They are labelled:
-
-+ y = 0: There is no bird on the image
-+ y = 1: There is a bird on the image
-
-Your goal is to build an algorithm able to classify new images taken by security cameras from Peacetopia.
-
-There are a lot of decisions to make:
-+ What is the evaluation metric?
-+ How do you structure your data into train/dev/test sets?
-
-### Metric of success
-The City Council tells you the following that they want an algorithm that
-* Has high accuracy
-* Runs quickly and takes only a short time to classify a new image.
-* Can fit in a small amount of memory, so that it can run in a small processor that the city will attach to many different security cameras.
-
 1. Note: Having three evaluation metrics makes it harder for you to quickly choose between two different algorithms, and will slow down the speed with which your team can iterate. True/False?
    - [x] True
    - [ ] False
@@ -30,7 +8,7 @@ The City Council tells you the following that they want an algorithm that
    - "We need an algorithm that can let us know a bird is flying over Peacetopia as accurately as possible."
    - "We want the trained model to take no more than 10sec to classify a new image.”
     “We want the model to fit in 10MB of memory.”
-
+    
    If you had the three following models, which one would you choose?
    - [ ] 
 
@@ -102,7 +80,7 @@ The City Council tells you the following that they want an algorithm that
          |   Bird watching expert #2                          |   0.5% error  |
          |   Normal person #1 (not a bird watching expert)    |   1.0% error  |
          |   Normal person #2 (not a bird watching expert)    |   1.2% error  |
-If your goal is to have “human-level performance” be a proxy (or estimate) for Bayes error, how would you define “human-level performance”?
+   If your goal is to have “human-level performance” be a proxy (or estimate) for Bayes error, how would you define “human-level performance”?
    - [ ] 0.0% (because it is impossible to do better than this)
    - [x] 0.3% (accuracy of expert #1)
    - [ ] 0.4% (average of 0.3 and 0.5)
@@ -120,7 +98,7 @@ If your goal is to have “human-level performance” be a proxy (or estimate) f
          |   Training set error                 |   2.0%   |
          |   Dev set error                      |   2.1%   |
 
-Based on the evidence you have, which two of the following four options seem the most promising to try? (Check two options.)
+   Based on the evidence you have, which two of the following four options seem the most promising to try? (Check two options.)
    - [x] Train a bigger model to try to do better on the training set.
    - [ ] Try increasing regularization.
    - [ ] Get a bigger training set to reduce variance.
@@ -132,7 +110,7 @@ Based on the evidence you have, which two of the following four options seem the
          |   Training set error                 |   2.0%  |
          |   Dev set error                      |   2.1%  |
          |   Test set error                     |   7.0%  |
-What does this mean? (Check the two best options.)
+   What does this mean? (Check the two best options.)
    - [x] You should try to get a bigger dev set.
    - [x] You have overfit to the dev set.
    - [ ] You have underfit to the dev set.
@@ -143,7 +121,7 @@ What does this mean? (Check the two best options.)
          |   Human-level performance            |   0.10%  |
          |   Training set error                 |   0.05%  |
          |   Dev set error                      |   0.05%  |
-What can you conclude? (Check all that apply.)
+   What can you conclude? (Check all that apply.)
    - [ ] This is a statistical anomaly (or must be the result of statistical noise) since it should not be possible to surpass human-level performance.
    - [ ] With only 0.09% further progress to make, you should quickly be able to close the remaining gap to 0%
    - [x] If the test set is big enough for the 0.05% error estimate to be accurate, this implies Bayes error is ≤0.05
