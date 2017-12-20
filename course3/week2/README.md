@@ -40,10 +40,13 @@
    
 6. Assume you’ve finally chosen the following split between of the data:
 
-            | Dataset:        | Contains: | Error of the algorithm: |
-            |  Training       | 940,000 images randomly picked from (900,000 internet images | 3MB         |
-                                + 60,000 car’s front-facing camera images)  
+            | Dataset:        | Contains:                                    | Error of the algorithm: |
+            --------------------------------------------------------------------------------------------
+            |  Training       | 940,000 images randomly picked from          |        8.8%             |
+            |                 | (900,000 internet images | 3MB               |                         |
+            |                 | + 60,000 car’s front-facing camera images)   |                         |
             
             |  Training-Dev   | 1 sec   | 3MB         |
+            
             |  Dev            | 1 sec   | 3MB         |
             |  Test           | 1 sec   | 3MB         |  
