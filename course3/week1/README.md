@@ -33,15 +33,19 @@ The City Council tells you the following that they want an algorithm that
 
     If you had the three following models, which one would you choose?
    - [ ] 
+   
          | Test Accuracy | Runtime | Memory size |
          |  97%          | 1 sec   | 3MB         |
    - [ ] 
+   
          | Test Accuracy | Runtime | Memory size |
          |  99%          | 13sec   | 9MB         |     
    - [ ] 
+   
          | Test Accuracy | Runtime | Memory size |
          |  97%          |  3sec   | 2MB         |    
    - [x] 
+   
          | Test Accuracy | Runtime | Memory size |
          |  98%          |  9sec   | 9MB         | 
 
@@ -52,23 +56,27 @@ The City Council tells you the following that they want an algorithm that
    - [ ] Accuracy, running time and memory size are all satisficing metrics because you have to do sufficiently well on all three for your system to be acceptable.
 
 4. **Structuring your data**
- Before implementing your algorithm, you need to split your data into train/dev/test sets. Which of these do you think is the best choice?
+   Before implementing your algorithm, you need to split your data into train/dev/test sets. Which of these do you think is the best choice?
    - [ ] 
+   
            |   Train   |    dev    |   Test    |
            | 6,000,000 | 1,000,000 | 3,000,000 |  
    - [ ] 
+   
            |   Train   |    dev    |   Test    |
            | 6,000,000 | 3,000,000 | 1,000,000 |   
    - [x] 
+   
            |   Train   |    dev    |   Test    |
            | 9,500,000 | 250,000   |   250,000 |   
    - [ ] 
+   
            |   Train   |    dev    |   Test    |
            | 3,333,334 | 3,333,333 | 3,333,333 |  
 
 5. After setting up your train/dev/test sets, the City Council comes across another 1,000,000 images, called the “citizens’ data”. Apparently the citizens of Peacetopia are so scared of birds that they volunteered to take pictures of the sky and label them, thus contributing these additional 1,000,000 images. These images are different from the distribution of images the City Council had originally given you, but you think it could help your algorithm.
 
-You should not add the citizens’ data to the training set, because this will cause the training and dev/test set distributions to become different, thus hurting dev and test set performance. True/False?
+   You should not add the citizens’ data to the training set, because this will cause the training and dev/test set distributions to become different, thus hurting dev and test set performance. True/False?
    - [ ] True
    - [x] False
 
@@ -79,6 +87,7 @@ You should not add the citizens’ data to the training set, because this will c
    - [ ] The 1,000,000 citizens’ data images do not have a consistent x-->y mapping as the rest of the data (similar to the New York City/Detroit housing prices example from lecture).
 
 7. You train a system, and its errors are as follows (error = 100%-Accuracy):
+
                   |   Training set error |   4.0%    |
                   |   Dev set error      |   4.5%    |
 This suggests that one good avenue for improving performance is to train a bigger network so as to drive down the 4.0% training error. Do you agree?  
@@ -88,6 +97,7 @@ This suggests that one good avenue for improving performance is to train a bigge
    - [x] No, because there is insufficient information to tell.
 
 8. You ask a few people to label the dataset so as to find out what is human-level performance. You find the following levels of accuracy:
+
     |   Bird watching expert #1                          |   0.3% error  |
     |   Bird watching expert #2                          |   0.5% error  |
     |   Normal person #1 (not a bird watching expert)    |   1.0% error  |
@@ -105,9 +115,11 @@ If your goal is to have “human-level performance” be a proxy (or estimate) f
    - [ ] A learning algorithm’s performance can be better than human-level performance and better than Bayes error.
 
 10. You find that a team of ornithologists debating and discussing an image gets an even better 0.1% performance, so you define that as “human-level performance.” After working further on your algorithm, you end up with the following:
+
     |   Human-level performance            |   0.1%   |
     |   Training set error                 |   2.0%   |
     |   Dev set error                      |   2.1%   |
+
 Based on the evidence you have, which two of the following four options seem the most promising to try? (Check two options.)
    - [x] Train a bigger model to try to do better on the training set.
    - [ ] Try increasing regularization.
@@ -115,10 +127,11 @@ Based on the evidence you have, which two of the following four options seem the
    - [x] Try decreasing regularization.
 
 11. You also evaluate your model on the test set, and find the following:
-    |   Human-level performance            |   0.1%  |
-    |   Training set error                 |   2.0%  |
-    |   Dev set error                      |   2.1%  |
-    |   Test set error                     |   7.0%  |
+
+   |   Human-level performance            |   0.1%  |
+   |   Training set error                 |   2.0%  |
+   |   Dev set error                      |   2.1%  |
+   |   Test set error                     |   7.0%  |
 What does this mean? (Check the two best options.)
    - [x] You should try to get a bigger dev set.
    - [x] You have overfit to the dev set.
@@ -126,6 +139,7 @@ What does this mean? (Check the two best options.)
    - [ ] You should get a bigger test set.
 
 12. After working on this project for a year, you finally achieve:
+
    |   Human-level performance            |   0.10%  |
    |   Training set error                 |   0.05%  |
    |   Dev set error                      |   0.05%  |
@@ -155,6 +169,4 @@ What can you conclude? (Check all that apply.)
    - [x] If 100,000,000 examples is enough to build a good enough Cat detector, you might be better of training with just 10,000,000 examples to gain a ≈10x improvement in how quickly you can run experiments, even if each model performs a bit worse because it’s trained on less data.
    - [x] Buying faster computers could speed up your teams’ iteration speed and thus your team’s productivity.
 
-         | Test Accuracy | Runtime | Memory size |
-         |  97%          | 1 sec   | 3MB         |
  
