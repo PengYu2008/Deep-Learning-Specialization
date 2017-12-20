@@ -96,7 +96,7 @@
    - [ ] 2.2% would be a reasonable estimate of how much this windshield wiper could worsen performance in the worst case.
    
 10. You decide to use data augmentation to address foggy images. You find 1,000 pictures of fog off the internet, and “add” them to clean images to synthesize foggy days, like this:
-    <br/><img src="./images/q10.PNG"><br/>
+    <br/><img src="./images/q10.png"><br/>
     Which of the following statements do you agree with?
     - [ ] There is little risk of overfitting to the 1,000 pictures of fog so long as you are combing it with a much larger (>>1,000) of clean/non-foggy images.
     - [ ] Adding synthesized images that look like real foggy pictures taken from the front-facing camera of your car to training dataset won’t help the model improve because it will introduce avoidable-bias.
@@ -109,11 +109,11 @@
     - [ ] You should not correct incorrectly labeled data in the training set as well so as to avoid your training set now being even more different from your dev set.
     
 12. So far your algorithm only recognizes red and green traffic lights. One of your colleagues in the startup is starting to work on recognizing a yellow traffic light. (Some countries call it an orange light rather than a yellow light; we’ll use the US convention of calling it yellow.) Images containing yellow lights are quite rare, and she doesn’t have enough data to build a good model. She hopes you can help her out using transfer learning.
-   What do you tell your colleague?
-   - [ ] She should try using weights pre-trained on your dataset, and fine-tuning further with the yellow-light dataset.
-   - [ ] If she has (say) 10,000 images of yellow lights, randomly sample 10,000 images from your dataset and put your and her data together. This prevents your dataset from “swamping” the yellow lights dataset.
-   - [ ] You cannot help her because the distribution of data you have is different from hers, and is also lacking the yellow label.
-   - [ ] Recommend that she try multi-task learning instead of transfer learning using all the data.
+    What do you tell your colleague?
+    - [ ] She should try using weights pre-trained on your dataset, and fine-tuning further with the yellow-light dataset.
+    - [ ] If she has (say) 10,000 images of yellow lights, randomly sample 10,000 images from your dataset and put your and her data together. This prevents your dataset from “swamping” the yellow lights dataset.
+    - [ ] You cannot help her because the distribution of data you have is different from hers, and is also lacking the yellow label.
+    - [ ] Recommend that she try multi-task learning instead of transfer learning using all the data.
    
 13. Another colleague wants to use microphones placed outside the car to better hear if there’re other vehicles around you. For example, if there is a police vehicle behind you, you would be able to hear their siren. However, they don’t have much to train this audio system. How can you help?
     - [ ] Transfer learning from your vision dataset could help your colleague get going faster. Multi-task learning seems significantly less promising.
